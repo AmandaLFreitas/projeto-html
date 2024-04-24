@@ -37,21 +37,21 @@ main, aside {
     padding: 10px;
 }
 main {
-    background-color: #f0f0f0;
-    width: 70%;
+    background-color: #e0e0e0;
+    width: 848px;
 }
 aside {
-    padding: 60px;
+    padding: 138px;
     background-color: #e0e0e0;
-    width: 20%;
-    margin-top: 20px;
+    width: 200px;
+    margin-top: 0px;
 }
 
 section {
-    background-color: #444;
+    background-color: #e0e0e0;
     color: white;
-    padding: 15px;
-    margin: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 @media only screen and (max-width: 600px) {
     main, aside {
@@ -79,14 +79,15 @@ hr{
 }
 
 .menu-item-aside{
-    padding: 10px;
+    padding: 500px;
 }
 
 .slider{
-    width: 800px;
-    height: 500px;
+    margin-left: 250px;
+    width: 350px;
+    height: 500px;  
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: center;
 }
 
@@ -95,9 +96,9 @@ hr{
 .navigation-bar{
     display: flex;
     position: relative;
-    bottom: 35px;
-    left: 90%;
-    transform: translate(-50%);
+    bottom: -380px;
+    left: 300px;
+    transform: translate(-55%);
 }
 
 input{
@@ -123,32 +124,32 @@ input{
 
 .slides{
     display: flex;
-    width: 400px;
+    width: 300px;
     height: 80px;
 }
 
 .slide{
     width: 500px;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .slide img{
-    width: 500px;
+    width: 350px;
     height: 500px;
 }
 
 #radio1:checked ~ .first{
-    margin-left: -100px;
+    margin-left: 0;
 }
 
-#radio2:checked ~ .first{
-    margin-left: -700px; 
+#radio2:checked ~ .first{   
+    margin-left: -350px; 
 }
 
 #radio3:checked ~ .first{
-    margin-left: -100x;
+    margin-left: -700px;
 }
 
 .altura-asisde{
-    width: 110%;
+    width: 100%;
 }
